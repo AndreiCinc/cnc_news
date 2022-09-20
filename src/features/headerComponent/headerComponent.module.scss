@@ -1,0 +1,15 @@
+@import "../../styles/globalStyle.module.scss";
+
+#header {
+    background-color: var(--global-primary-menu-background-color);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileSection {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
