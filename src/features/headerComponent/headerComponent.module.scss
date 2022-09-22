@@ -13,3 +13,22 @@
     display: flex;
     align-items: center;
 }
+
+.menuSection {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.widgetsHeaderForMobile { 
+    border-top: .09rem solid #F2784F;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+
+}
+
+@media only screen and (max-width: 599px) {
+    #header {
+        padding-top: 1rem;
+    }
+}
