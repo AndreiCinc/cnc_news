@@ -11,6 +11,7 @@
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^14.4.3",
         "axios": "^0.27.2",
+        "classnames": "^2.3.2",
         "json-server": "^0.17.0",
         "node-sass": "^7.0.3",
         "react": "^18.2.0",
@@ -24,7 +25,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "mockapi": "json-server -c mockAPI/json-server.json --watch mockAPI/db.json mockAPI/routes.json"
     },
     "eslintConfig": {
         "extends": [
