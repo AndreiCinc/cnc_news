@@ -1,0 +1,68 @@
+.body {
+    width: 25vw;
+    height: calc(47vh / 4);
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.mainInfo {
+    width: 50%;
+    text-align: left;
+
+    h3, p {
+        margin: 0;
+    }
+
+    p {
+        margin-top: 0.5vh;
+    }
+}
+
+.percentBox {
+    width: 50%;
+
+    .percentValue {
+        margin-top: .3em;
+        font-size: 1.9em;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.mainInfo, .percentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// .dividingLine {
+//     width: 25vw;
+//     height: 10px;
+//     border-color: red;
+//     margin-top: 0;
+//     margin-bottom: 0;
+// }
+
+.cardComponent {
+    cursor: pointer;
+    padding: 0 3em 0 3em;
+}
+
+.selected {
+    background-color: #F8F8F9;
+
+    div {
+        border: none;
+    }
+}
+
+.red {
+    color: #FE3732;
+}
+
+.green {
+    color: #61D93A;
+}

@@ -1,0 +1,16 @@
+#weather {
+    width: 50vw;
+    height: 100%;
+
+    //play purpose
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 849px) {
+    #weather {
+        width: calc(100vw - (100vw - 100%));
+    }
+}

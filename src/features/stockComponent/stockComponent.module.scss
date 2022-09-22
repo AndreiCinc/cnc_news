@@ -1,0 +1,12 @@
+#stock {
+    width: calc(100vw - (100vw - 100%));
+
+    margin: 0;
+    display: flex;
+}
+
+@media only screen and (max-width: 849px) {
+    #stock {
+        
+    }
+}

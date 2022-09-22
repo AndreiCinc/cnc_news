@@ -1,0 +1,1 @@
+export const STOCK_API = "http://localhost:8000";

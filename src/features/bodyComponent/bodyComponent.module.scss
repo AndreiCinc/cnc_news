@@ -1,0 +1,14 @@
+#body {
+    margin: 0;
+    height: 96%;
+    width: calc(100vw - (100vw - 100%));
+}
+
+.firstRow {
+    display: flex;
+    height: 50%;
+}
+
+.secondRow {
+    height: 50%;
+}
