@@ -18,8 +18,6 @@ const CardSection = () => {
         setSelectedCompany(index);
     };
 
-    
-
     return(
             <div id={sectionStyle.section}>
                 {stockData?.map((card, index) => 
